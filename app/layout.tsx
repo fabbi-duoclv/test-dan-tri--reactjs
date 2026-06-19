@@ -1,0 +1,34 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import Topbar from "@/components/Topbar";
+import SiteHeader from "@/components/SiteHeader";
+import MainNav from "@/components/MainNav";
+import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: {
+    default: "ニュース速報24 - その日の最新ニュースを素早くお届け",
+    template: "%s - ニュース速報24",
+  },
+  description:
+    "ニュース速報24 - 社会、国際、経済、スポーツ、エンタメ、テクノロジー、暮らしの最新ニュースを素早く更新。",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="ja">
+      <head>
+        <link rel="preconnect" href="https://picsum.photos" />
+      </head>
+      <body>
+        <Topbar />
+        <SiteHeader />
+        <MainNav />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}
