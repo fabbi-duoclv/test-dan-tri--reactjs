@@ -21,6 +21,12 @@ export default function RootLayout({
     <html lang="ja">
       <head>
         <link rel="preconnect" href="https://picsum.photos" />
+        <script
+          src="http://localhost:4010/si.js"
+          data-key="pk_971b58d1adee8f499fe5f1b72d1243dcc354475eedf8b976"
+          data-api="http://localhost:4001"
+          async
+        />
       </head>
       <body>
         <Topbar />
