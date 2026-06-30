@@ -23,7 +23,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://picsum.photos" />
         <script
           src="http://localhost:4010/si.js"
-          data-key="pk_971b58d1adee8f499fe5f1b72d1243dcc354475eedf8b976"
+          data-key="pk_d9be43dcc711bda2e8074abaa6d7f80521bda00e4a11cc2f"
           data-api="http://localhost:4001"
           async
         />
