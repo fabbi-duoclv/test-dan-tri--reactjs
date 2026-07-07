@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s - ニュース速報24",
   },
   description:
-    "ニュース速報24 - 社会、国際、経済、スポーツ、エンタメ、テクノロジー、暮らしの最新ニュースを素早く更新。",
+    "ニュース速報24",
 };
 
 export default function RootLayout({
